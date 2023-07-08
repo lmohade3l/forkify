@@ -144,6 +144,8 @@ const init = function() {
   Recipe_View.add_handler_update_servings(control_servings);
   Recipe_View.add_handler_bookmark(control_bookmark);
   Add_Recipe_View._add_handler_upload(control_add_recipe);
+
+  console.log('Welcome!');
 };
 init();
 
